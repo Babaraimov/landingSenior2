@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #ffff;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1240px;
+  height: 100%;
+  margin: 0px auto;
+}
+li {
+  list-style-type: none;
+}

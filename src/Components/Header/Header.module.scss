@@ -1,0 +1,79 @@
+.headerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbars {
+  max-width: 600px;
+  width: 100%;
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__Item {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    &__products {
+      color: #111827;
+    }
+    &__features {
+      color: #111827;
+    }
+    &__pricing {
+      color: #111827;
+    }
+    &__resources {
+      color: #111827;
+    }
+    &__blog {
+      color: #111827;
+    }
+  }
+}
+.buttons {
+  max-width: 270px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__header {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #0caf60;
+    border: 1px solid #0caf60;
+    border-radius: 8px;
+    padding: 10px 24px;
+    &__green {
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 21px;
+      letter-spacing: 0.20000000298023224px;
+      text-align: center;
+      color: #ffff;
+      background: #0caf60;
+      border: none;
+      border-radius: 8px;
+      padding: 11px 24px;
+    }
+    &__green:hover {
+      border: 1px solid #0caf60;
+      background: #ffff;
+      color: #0caf60;
+      cursor: pointer;
+      transition: 0.8s;
+    }
+  }
+  &__header:hover {
+    background: #0caf60;
+    color: #ffff;
+    transition: 0.8s;
+    cursor: pointer;
+  }
+}

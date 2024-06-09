@@ -1,0 +1,133 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.main__PrivacyPoilcy {
+  margin: 0px 0px 200px 0px;
+}
+.main__texts {
+  margin: 90px 0px;
+
+  &__salesline {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #111827;
+  }
+  &__last {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    color: #718096;
+  }
+}
+.main__informations {
+  display: flex;
+  position: relative;
+  &__margin {
+    margin: 0px 0px 0px 450px;
+  }
+  &__fixed {
+    position: fixed;
+    // top: 200px;
+    // bottom: 200px;
+    transform: translateY(-60%);
+    z-index: 99;
+    background: #eeeeee;
+    border-radius: 18px;
+
+    &__ul {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 35px;
+      &__navText {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        color: #323b49;
+        border-radius: 8px;
+        padding: 8px 10px;
+      }
+      &__navText:hover {
+        background: #0caf60;
+        color: #ffff;
+        transition: 0.8s;
+        cursor: pointer;
+      }
+      &__navText__active {
+        background: #0caf60;
+        color: #ffff;
+        transition: 0.8s;
+        cursor: pointer;
+      }
+    }
+  }
+  &__texts {
+    &__introductions {
+      &__info {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+        color: #111827;
+      }
+      &__ourValues {
+        &__info {
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 40px;
+          text-align: left;
+          color: #111827;
+        }
+      }
+      &__why {
+        &__info {
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 40px;
+          text-align: left;
+          color: #111827;
+        }
+      }
+      &__you {
+        &__info {
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 40px;
+          text-align: left;
+          color: #111827;
+        }
+      }
+      &__where {
+        &__info {
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 40px;
+          text-align: left;
+          color: #111827;
+        }
+      }
+      &__how {
+        &__info {
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 40px;
+          text-align: left;
+          color: #111827;
+        }
+      }
+    }
+  }
+}
+
+.main__informations__texts__ourValues__info__miniInfo__span {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #111827;
+}
